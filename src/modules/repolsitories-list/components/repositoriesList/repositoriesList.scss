@@ -1,0 +1,18 @@
+.t_cols {
+  display: grid;
+  grid-template-columns: 30px 1fr 150px 150px;
+  grid-template-rows: 30px;
+  align-items: center;
+
+  &:nth-child(2n) {
+    background-color: #e2e2e2;
+  }
+}
+
+td {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}

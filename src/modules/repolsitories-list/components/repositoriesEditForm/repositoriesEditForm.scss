@@ -1,0 +1,28 @@
+.custom-form {
+  display: flex;
+  flex-direction: column;
+
+  &__input {
+    border: none;
+    border-bottom: 2px solid #e2e2e2;
+    margin-bottom: 28px;
+  }
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.error {
+  position: absolute;
+  bottom: 0;
+  color: red;
+  font-size: 14px;
+}
+
+.field-row {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
